@@ -1,0 +1,76 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "meine momente",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayRandomByDate",
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "was habe ich {date} gemacht",
+                        "was habe ich am {date} gemacht",
+                        "erzähl mir was vom {date}",
+                        "erzähl mir was von {date}",
+                        "was war am {date}",
+                        "was war {date}",
+                        "spiele erinnerung vom {date}",
+                        "Spiele Erinnerung von {date}"
+                    ]
+                },
+                {
+                    "name": "PlayRandom",
+                    "slots": [],
+                    "samples": [
+                        "erzähle mir etwas",
+                        "spiel mir ne erinnerung vor",
+                        "starte eine zufällige erinnerung",
+                        "spiele eine beliebige erinnerung ab",
+                        "spiele eine beliebige erinnerung",
+                        "spiele etwas ab",
+                        "spiele etwas",
+                        "erzähl mir was"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

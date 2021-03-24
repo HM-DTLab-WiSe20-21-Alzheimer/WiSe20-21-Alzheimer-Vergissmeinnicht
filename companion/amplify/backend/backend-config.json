@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "vergissmeinnichtupe39d4cdc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "vergissmeinnichtStorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

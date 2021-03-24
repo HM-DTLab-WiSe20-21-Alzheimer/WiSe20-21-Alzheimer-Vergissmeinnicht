@@ -1,0 +1,44 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-central-1:051886484530:function:Vergissmeinicht-Proto"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "de-DE": {}
+      }
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "FRIENDS_AND_FAMILY",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "de-DE": {
+          "description": "Hiermit können Sie vorher aufgenommene Erinnerungen abspielen.",
+          "examplePhrases": [
+            "Sage meine Momente was war gestetn",
+            "",
+            ""
+          ],
+          "keywords": [],
+          "name": "Vergissmeinicht-Proto",
+          "summary": "Spielen Sie Erinnerungensnachrichten ab."
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
